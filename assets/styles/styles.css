@@ -7,7 +7,7 @@
   color: white;
 }
 
-.back {
+.body{
   background-image: url("../image/starfield.jpg");
   background-size: cover;
   background-repeat: no-repeat;
