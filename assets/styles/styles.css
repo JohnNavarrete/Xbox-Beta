@@ -138,5 +138,16 @@ nav li {
   margin-right: 70px;
 }
 
+
  FIN DE CLASES DE *** */
 
+ .container-footer{
+   text-align: center;
+   font-size: 18px;
+
+ }
+
+ .container-redes{
+   margin-top: 10px;
+   margin-bottom: 15px;
+ }
