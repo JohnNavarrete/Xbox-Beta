@@ -31,7 +31,7 @@ nav li {
 }
 
 .menu a {
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .container {
@@ -96,6 +96,7 @@ nav li {
 .box:hover {
   transform: scale(1.1);
   border: 3px solid white;
+  transition: all .45s;
   /* box-shadow: 3px 3px 18px rgb(255, 255, 255); */
 }
 
