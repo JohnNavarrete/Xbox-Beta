@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
   color: white;
 }
 
-body{
+body {
   background-image: url("../image/starfield.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -58,6 +58,20 @@ nav li {
   margin-right: 10px;
 }
 
+.container-imagen {
+  width: 40px;
+  height: 40px;
+  background-image: url("../image/Tio Phill.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  float: right;
+  cursor: pointer;
+}
+
+#name {
+  margin-right: 10px;
+}
+
 /* FIN DE CLASES DE HEADER */
 
 /* CLASES DE WELCOME */
@@ -96,7 +110,7 @@ nav li {
 .box:hover {
   transform: scale(1.1);
   border: 3px solid white;
-  transition: all .45s;
+  transition: all 0.45s;
   /* box-shadow: 3px 3px 18px rgb(255, 255, 255); */
 }
 
@@ -145,13 +159,12 @@ nav li {
 
  FIN DE CLASES DE *** */
 
- .container-footer{
-   text-align: center;
-   font-size: 18px;
+.container-footer {
+  text-align: center;
+  font-size: 18px;
+}
 
- }
-
- .container-redes{
-   margin-top: 10px;
-   margin-bottom: 15px;
- }
+.container-redes {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
