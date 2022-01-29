@@ -107,7 +107,7 @@ nav li {
   line-height: 0;
 }
 
-.box:hover {
+.box img:hover {
   transform: scale(1.1);
   border: 3px solid white;
   transition: all 0.45s;
@@ -159,12 +159,72 @@ nav li {
 
  FIN DE CLASES DE *** */
 
-.container-footer {
+ .container-footer {
   text-align: center;
   font-size: 18px;
 }
 
 .container-redes {
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 15px; 
 }
+
+.container-redes a:hover{
+  color: #ffa595;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  nav ul {
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    z-index: 2;
+  }
+
+  nav li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logoMenu {
+    display: block;
+  }
+
+  #menuList {
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .contianer-logo-emp{
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (max-width: 780px) {
+
+  .container-welcome{
+    margin-top: 120px;
+  }
+
+  .container-estudios {
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 40vh;
+    box-sizing: border-box;
+    padding: 1% 1%;
+    backdrop-filter: blur(15px);
+  }
+
+}
+
+
